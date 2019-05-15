@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8" />
+    <title>Tudo sobre Google Glass</title>
+
+    <link rel="stylesheet" type="text/css" href="_css/estilo2.css" />
+    <link rel="stylesheet" href="_css/media.css"/>
+    <script language="JavaScript" src="_javascript/funcoes.js"></script>
+</head>
+
+<body>
+<div id="interface">
+    <header id="cabecalho"><!-- A tag 'header' vai encabeçar uma região do seu site -->
+        <hgroup><!-- <<< Grupo de  títulos -->
+            <h1>Google Glass</h1>
+            <h2>A revolução do Google está chegando</h2>
+        </hgroup>
+        <img id="icone" src="_imagens/glass-oculos-preto-peq.png" />
+
+        <nav id="menu"><!-- Cria uma área de navegação dentro do site -->
+            <h1>Menu Principal</h1>
+            <ul><!--type="1" start="3"--><!-- ol = Ordered Lists/Listas Ordenadas  e ul = Urnodered List/Listas não Ordenadas -->
+                <li onmouseover="mudaFoto('_imagens/home.png')" onmouseout="mudaFoto('_imagens/multimidia.png')"><a href="index.html">Home</a></li><!-- li = List Itens/Itens da Lista -->
+                <li onmouseover="mudaFoto('_imagens/especificacoes.png')" onmouseout="mudaFoto('_imagens/multimidia.png')"><a href="specs.html">Especificações</a></li>
+                <li><a href="fotos.html"  onmouseover="mudaFoto('_imagens/fotos.png')" onmouseout="mudaFoto('_imagens/multimidia.png')">Fotos</a></li>
+                <li><a href="multimidia.html" onmouseover="mudaFoto('_imagens/multimidia.png')" onmouseout="mudaFoto('_imagens/multimidia.png')">Multimídia</a></li>
+                <li><a href="fale-conosco.html" onmouseover="mudaFoto('_imagens/contato.png')" onmouseout="mudaFoto('_imagens/multimidia.png')">Fale conosco</a></li>
+            </ul>
+        </nav>
+
+    </header>
+    <section id="corpo-full">
+        <header id="cabecalho-artigo">
+            <hgroup><!-- <<< Gupo de títulos -->
+                <h3>Glass > Multimídia</h3><!-- $nbsp; = Non-breakng Space/espaço sem quebra -->
+                <h1>Sons e Vídeos</h1>
+                <h2>por Gustavo Guanabara</h2>
+                <h3 class="direita">Atualizado em 01/Maio/2013</h3>
+            </hgroup>
+        </header>
+
+        <div id="tv-radio">
+            <audio id="musica" controls="controls">
+                <source src="_media/2009-lovers-carvings-bibio.mp3" type="audio/mpeg"/>
+                Desculpe, mas não foi possível carregar o áudio.
+            </audio>
+
+            <video id="filme" controls="controls" poster="_imagens/video-mini03.jpg">
+                <source src="_media/getting-started.mp4" type="video/mp4"/>
+                Desculpe, mas não foi possível carregar o vídeo.
+            </video>
+        </div>
+
+    </section>
+    <footer id="rodape">
+        <p>
+            Copyright&copy; 2013 - by Gustavo Guanabara<br/>
+            <a href="/ttp.//www.google.com" target="_blank">Facebook</a> | <a href="/ttp.//www.google.com" target="_blank">Twitter</a>
+        </p>
+    </footer>
+</div>
+</body>
+</html>

@@ -1,0 +1,39 @@
+
+&lt; - menor que
+&gt; - maior que
+&le; - menor ou igual a
+&ge; - maior ou igual a
+
+monetários
+&pound; - libras
+&uyen; - iene
+&euro; - euro
+
+&copy; - copyrite
+&reg; - marca registrada
+&trade; - TM/trade marck
+
+&permil; - permil
+&sum; - soma
+&infin; - infinito
+&times; - multiplicação
+&plusmn; - mais ou menos
+&oplus; - ulplus
+&radic; - raiz quadrada 
+&ne; - diferente
+
+&delta; - delta
+&lambda; - lambda
+&omega; - omega
+&phi; - phi
+
+&larr; - seta pra esquerda
+&rarr; - seta pra direita
+&uarr; - seta pra cima
+&darr; - seta pra baixo
+&harr; - seta pros dois lados
+
+&spades; - espadas
+&clubs; - paus
+&hearts; - copas
+&diams; - Ouros
